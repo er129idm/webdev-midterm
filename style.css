@@ -1,0 +1,157 @@
+/*
+* {
+    border: solid 1px black;
+}
+*/
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*OVERALL*/
+
+.topTop {
+    display: flex;
+    flex-direction: row;
+}
+
+.topTop img {
+    width: 95px;
+    height: auto;
+}
+
+.topTop h1 {
+    font-family: 'Cantarell', sans-serif;
+    color: rgb(40, 40, 141);
+    font-style: bold;
+}
+
+.topTop a {
+    text-decoration: none;
+}
+
+.topMenu {
+    /*TOP MENU ON ALL PAGES*/
+    background-color: rgb(40, 40, 141);
+    font-family: 'Cantarell', sans-serif;
+    font-style: italic;
+}
+
+.topMenu ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+    padding: 3vmin;
+}
+
+.topMenu li {
+    font-size: 5vmin;
+    text-align: center;
+}
+
+.topMenu li a,
+.topMenu li a:visited,
+.topMenu li a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.topMenu li a:hover {
+    background-color: white;
+    color: rgb(40, 40, 141);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 2vmin;
+}
+
+/*OVERALL*/
+
+/*INFO PAGE*/
+
+.contentContainer_info {}
+
+/*SUBHERO CONTENT*/
+.subHeroContent {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(241, 241, 255), white);
+    justify-content: center;
+    align-items: center;
+}
+
+.subHeroContent img {
+    text-align: center;
+    margin: 5pt;
+    width: 75%;
+    height: auto;
+}
+
+.subHeroContent p {
+    text-align: center;
+    font-size: 35pt;
+    color: black;
+}
+
+/*SUBHERO CONTENT*/
+
+/*OTHER CONTENT*/
+
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20pt;
+    margin-right: 20pt;
+}
+
+.text h1 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.text p {
+    font-size: 14pt;
+    text-align: justify;
+
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 10pt;
+}
+
+/*OTHER CONTENT*/
+
+/*INFO PAGE*/
+
+/*MEDIA PAGE*/
+
+.contentContainer_media {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
+}
+
+/*MEDIA PAGE*/
+
+/*AFTERMATH PAGE*/
+
+
+
+
+
+/*AFTERMATH PAGE*/
